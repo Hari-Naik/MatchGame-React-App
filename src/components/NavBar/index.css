@@ -1,0 +1,52 @@
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 45px;
+  padding-right: 45px;
+  width: 100%;
+  color: #fff;
+  background-color: #2c0e3a;
+}
+
+.logo {
+  width: 150px;
+}
+
+.nav-left {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.nav-right {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.nav-timer {
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+}
+
+.timer-img {
+  width: 20px;
+}
+
+.score {
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+
+span {
+  color: #fec653;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.time {
+  color: #fec653;
+  font-size: 16px;
+  font-weight: 600;
+  padding-left: 8px;
+}
